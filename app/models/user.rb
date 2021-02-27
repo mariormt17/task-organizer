@@ -6,4 +6,6 @@ class User < ApplicationRecord
          :recoverable, # Permite recuperar su contraseña
          :rememberable, # Permite recordar su contraseña utilizando un sistema de cookies
          :validatable # Permite validar ciertos tipos de datos para poder acceder a la sesion
+
+  has_many :tasks
 end
