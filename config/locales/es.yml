@@ -1,0 +1,32 @@
+---
+es:
+  activerecord:
+    models:
+      category:
+        one: Categoría
+        other: Categorías
+      task:
+        one: Tarea
+        other: Tareas
+  categories:
+    editing_category: Editando Categoría
+    form:
+      description: Descripción
+      name: Nombre
+    listing_categories: Mostrando Categorías
+    new_category: Nueva Categoría
+  common:
+    back: Atrás
+    destroy: Eliminar
+    edit: Editar
+    editing_task: Editando Tarea
+    r_u_sure: "¿Estás seguro?"
+    show: Mostrar
+  tasks:
+    form:
+      category: Categoría
+      description: Descripción
+      due_date: Fecha de vencimiento
+      name: Nombre
+    listing_tasks: Mostrando Tareas
+    new_task: Nueva Tarea
