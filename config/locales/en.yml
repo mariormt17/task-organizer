@@ -22,6 +22,9 @@ en:
     editing_task: Editing task
     r_u_sure: Are you sure?
     show: Show
+  task:
+    errors:
+      invalid_due_date: Invalid due date
   tasks:
     form:
       category: Category

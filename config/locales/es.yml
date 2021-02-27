@@ -22,6 +22,9 @@ es:
     editing_task: Editando Tarea
     r_u_sure: "¿Estás seguro?"
     show: Mostrar
+  task:
+    errors:
+      invalid_due_date: La fecha no puede estar en el pasado
   tasks:
     form:
       category: Categoría
