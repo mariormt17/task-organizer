@@ -19,13 +19,14 @@ es:
     back: Atrás
     destroy: Eliminar
     edit: Editar
-    editing_task: Editando Tarea
     r_u_sure: "¿Estás seguro?"
     show: Mostrar
-  task:
+  devise:
+    log_out: Cerrar Sesión
+  tasks:
+    editing_task: Editando Tarea
     errors:
       invalid_due_date: La fecha no puede estar en el pasado
-  tasks:
     form:
       category: Categoría
       description: Descripción

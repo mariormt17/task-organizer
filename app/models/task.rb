@@ -19,6 +19,6 @@ class Task < ApplicationRecord
 
   def due_date_validation
     return if due_date >= Date.today
-    errors.add :due_date, I18n.t('task.errors.invalid_due_date')
+    errors.add :due_date, I18n.t('tasks.errors.invalid_due_date')
   end
 end

@@ -19,13 +19,14 @@ en:
     back: Back
     destroy: Destroy
     edit: Edit
-    editing_task: Editing task
     r_u_sure: Are you sure?
     show: Show
-  task:
+  devise:
+    log_out: Log out
+  tasks:
+    editing_task: Editing task
     errors:
       invalid_due_date: Invalid due date
-  tasks:
     form:
       category: Category
       description: Description
