@@ -22,6 +22,8 @@ class Task < ApplicationRecord
   validates :name, uniqueness: { case_sensitive: false }
   validate :due_date_validation
 
+  accepts_nested_attributes_for :participating_users, allow_destroy: true
+
   def due_date_validation
     return if due_date >= Date.today
     errors.add :due_date, I18n.t('tasks.errors.invalid_due_date')
