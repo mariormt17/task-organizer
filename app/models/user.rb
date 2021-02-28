@@ -7,5 +7,7 @@ class User < ApplicationRecord
          :rememberable, # Permite recordar su contraseña utilizando un sistema de cookies
          :validatable # Permite validar ciertos tipos de datos para poder acceder a la sesion
 
-  has_many :tasks
+  has_many :owned_tasks
+  has_many :participations, class_name: 'Participant'
+  has_many :tasks, through: :participations
 end
