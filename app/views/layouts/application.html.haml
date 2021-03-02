@@ -13,5 +13,4 @@
     .container.mt-4.pb-4
       .main-flash-messages
         = render 'layouts/messages'
-        /= link_to t('devise.log_out'), destroy_user_session_path, method: :delete
       = yield
