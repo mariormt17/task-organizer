@@ -12,7 +12,7 @@
         %span.sr-only (current)
       %li.nav-item
         %a.nav-link{ href: categories_path }= t('categories.label')
-  = link_to 'Crear Tarea', new_task_path, class: 'btn btn-light ml-2'
+  = link_to t('tasks.new_task'), new_task_path, class: 'btn btn-light ml-2'
   .dropdown.dropdown-user
     %a#userMenu{ "aria-expanded" => "false", "aria-haspopup" => "true", "data-toggle" => "dropdown" }
       = image_tag "https://robohash.org/#{current_user.email}?size=38x38", title: current_user.email, style: 'cursor: pointer;'
