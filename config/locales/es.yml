@@ -20,6 +20,7 @@ es:
     destroy: Eliminar
     edit: Editar
     enter_your_note: Ingresa tu nota
+    information: Información
     r_u_sure: "¿Estás seguro?"
     show: Mostrar
     information: Información
@@ -40,5 +41,6 @@ es:
       name: Nombre
     listing_tasks: Mostrando Tareas
     new_task: Nueva Tarea
+    participants: Participantes
     statement: A continuación, verás toda la lista de tareas creadas, podrás crear una nueva tarea, editarla o eliminarla si eres el creador de la misma.
     task: Tarea

@@ -28,7 +28,7 @@
               %td.font-weight-light= @task.description
       .task-participants 
         .task-participants-header 
-          .font-weight-bold.text-uppercase= 'Participantes'
+          .font-weight-bold.text-uppercase= t('tasks.participants')
         - @task.participating_users.includes(:user).each do |participant|
           .task-participant{ class: "task-participant--#{participant.role}" }
             = image_tag "https://robohash.org/#{participant.user.email}?size=60x60", title: participant.user.email
