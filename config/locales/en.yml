@@ -20,15 +20,15 @@ en:
     destroy: Destroy
     edit: Edit
     enter_your_note: Enter your note
-    information: Información
+    information: Information
     r_u_sure: Are you sure?
     show: Show
-    information: Information
   devise:
     log_out: Log out
   notes:
     notes_title: Notes
   tasks:
+    add_participant: Add participant
     editing_task: Editing task
     errors:
       invalid_due_date: Invalid due date
@@ -42,5 +42,7 @@ en:
     listing_tasks: Listing tasks
     new_task: New task
     participants: Participants
+    role_label: Role
     statement: Then you will see the list of created tasks, you can create a new task, edit it or delete it if you are the task creator.
     task: Task
+    user_label: User

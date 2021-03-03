@@ -23,12 +23,12 @@ es:
     information: Información
     r_u_sure: "¿Estás seguro?"
     show: Mostrar
-    information: Información
   devise:
     log_out: Cerrar Sesión
   notes:
     notes_title: Notas
   tasks:
+    add_participant: Añadir Participante
     editing_task: Editando Tarea
     errors:
       invalid_due_date: La fecha no puede estar en el pasado
@@ -42,5 +42,7 @@ es:
     listing_tasks: Mostrando Tareas
     new_task: Nueva Tarea
     participants: Participantes
+    role_label: Rol
     statement: A continuación, verás toda la lista de tareas creadas, podrás crear una nueva tarea, editarla o eliminarla si eres el creador de la misma.
     task: Tarea
+    user_label: Usuario

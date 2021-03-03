@@ -4,17 +4,25 @@
   = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
 
   .form-inputs
-    = f.input :name, label: t('.name')
-    = f.input :description, label: t('.description')
-    = f.input :due_date, label: t('.due_date')
-    = f.association :category, label: t('.category')
+    .row 
+      .col-sm-6 
+        = f.input :name, label: t('.name')
+      .col-sm-3 
+        = f.input :due_date, as: :string, input_html: { type: :date }, label: t('.due_date')
+      .col-sm-3 
+        = f.association :category, label: t('.category')
+    .row
+      .col-sm-12
+        = f.input :description
     #AddParticipants
-      = link_to_add_association f, :participating_users, 'data-association-insertion-node' => '.participants .participants-container', 'data-turbolinks' => false do
-        Agregar Participante
+      %br/
+      %h3.uppercase-font{ style: 'display: inline-block;' }= t('tasks.participants')
+      = link_to_add_association f, :participating_users, class: 'btn btn-info float-right', 'data-association-insertion-node' => '.participants .participants-container', 'data-turbolinks' => false do
+        = t('tasks.add_participant')
+        .fa.fa-plus-circle 
     .participants
       = f.simple_fields_for :participating_users do |g|
         = render 'participating_user_fields', f: g
       .participants-container
-
   .form-actions
-    = f.button :submit
+    = f.button :submit, class: 'btn btn-info'
