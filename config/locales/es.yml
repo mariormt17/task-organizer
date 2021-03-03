@@ -19,19 +19,26 @@ es:
     back: Atrás
     destroy: Eliminar
     edit: Editar
-    r_u_sure: ¿Estás seguro?
+    enter_your_note: Ingresa tu nota
+    r_u_sure: "¿Estás seguro?"
     show: Mostrar
+    information: Información
   devise:
     log_out: Cerrar Sesión
+  notes:
+    notes_title: Notas
   tasks:
     editing_task: Editando Tarea
     errors:
       invalid_due_date: La fecha no puede estar en el pasado
     form:
       category: Categoría
+      code: Código
+      creator: Creador
       description: Descripción
       due_date: Fecha de vencimiento
       name: Nombre
     listing_tasks: Mostrando Tareas
     new_task: Nueva Tarea
     statement: A continuación, verás toda la lista de tareas creadas, podrás crear una nueva tarea, editarla o eliminarla si eres el creador de la misma.
+    task: Tarea
