@@ -1,8 +1,8 @@
 <%- if @note.persisted? %>
-  var parentNode = document.querySelector(".notes_container .notes")
+  var parentNode = document.querySelector(".notes-container .notes")
   var div = document.createElement("div")
-  div.classList.add("note-element");
-  div.innerHTML = "<%= j render'tasks/notes/note.html.haml', note: @note %>"
+  div.classList.add("note-element")
+  div.innerHTML = "<%= j render 'tasks/notes/note.html.haml', note: @note %>"
   parentNode.appendChild(div)
   document.getElementById("note_body").value = "";
   window.scrollTo({
