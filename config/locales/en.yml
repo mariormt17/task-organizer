@@ -34,3 +34,4 @@ en:
       name: Name
     listing_tasks: Listing tasks
     new_task: New task
+    statement: Then you will see the list of created tasks, you can create a new task, edit it or delete it if you are the task creator.

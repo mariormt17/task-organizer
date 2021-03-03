@@ -19,7 +19,7 @@ es:
     back: Atrás
     destroy: Eliminar
     edit: Editar
-    r_u_sure: "¿Estás seguro?"
+    r_u_sure: ¿Estás seguro?
     show: Mostrar
   devise:
     log_out: Cerrar Sesión
@@ -34,3 +34,4 @@ es:
       name: Nombre
     listing_tasks: Mostrando Tareas
     new_task: Nueva Tarea
+    statement: A continuación, verás toda la lista de tareas creadas, podrás crear una nueva tarea, editarla o eliminarla si eres el creador de la misma.
