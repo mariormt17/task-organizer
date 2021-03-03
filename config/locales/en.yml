@@ -13,6 +13,7 @@ en:
     form:
       description: Description
       name: Name
+    label: Categories
     listing_categories: Listing categories
     new_category: New Category
   common:
@@ -20,7 +21,9 @@ en:
     destroy: Destroy
     edit: Edit
     enter_your_note: Enter your note
+    home: Home
     information: Information
+    logout: Logout
     r_u_sure: Are you sure?
     show: Show
   devise:

@@ -13,6 +13,7 @@ es:
     form:
       description: Descripción
       name: Nombre
+    label: Categorías
     listing_categories: Mostrando Categorías
     new_category: Nueva Categoría
   common:
@@ -20,7 +21,9 @@ es:
     destroy: Eliminar
     edit: Editar
     enter_your_note: Ingresa tu nota
+    home: Inicio
     information: Información
+    logout: Cerrar Sesión
     r_u_sure: "¿Estás seguro?"
     show: Mostrar
   devise:
